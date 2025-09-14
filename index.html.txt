@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ayoub Sultan — Hair Salon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="logo">Ayoub Sultan</div>
+    <nav class="cta"><a href="#book">Book an appointment</a></nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-image">
+      <img alt="Hairstylists styling a client" src="salon-photo.jpg" style="max-width:100%;height:auto;">
+    </section>
+
+    <section id="about">
+      <h1>Ayoub Sultan — Luxury Hair Salon</h1>
+      <p>Professional stylists, modern interior, and bespoke hair services. Walk-ins welcome or <a href="#book">book online</a>.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Cut & Style</li>
+        <li>Coloring & Highlights</li>
+        <li>Bridal & Event Styling</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Phone: +216 XX XXX XXX</p>
+      <p>Address: [Your salon address]</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Ayoub Sultan</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
